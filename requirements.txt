@@ -1,0 +1,15 @@
+# Requirements for breed_llm_pangenomic script
+python==3.10.11
+
+# Core dependencies for genome processing and deep learning
+biopython==1.83         # Parsing FASTA files and handling biological sequences
+torch==2.0.1            # Deep learning computations and model inference
+transformers==4.34.0    # Pre-trained transformer models for k-mer embedding
+numpy==1.26.2           # Numerical operations and array processing
+scikit-learn==1.3.1     # Data preprocessing (e.g., MinMaxScaler)
+
+# Requirements for breed_llm_guided_blup_analysis script
+langchain==0.1.0         
+openai==1.2.0            
+
+# Note: Ensure R is installed and the lme4 package is available in R.
