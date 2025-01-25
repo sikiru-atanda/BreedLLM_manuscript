@@ -93,23 +93,35 @@ Before running the scripts, ensure you have the following:
 
 Below are step-by-step instructions to set up the environment for both scripts.
 - Clone This Repository
+```bash
     git clone https://github.com/sikiru-atanda/BreedLLM_manuscript
     cd BreedLLM
+```
+
 - Create and Activate a Python Virtual Environment (Recommended)
+
     python -m venv pangenomic_env
+
     source pangenomic_env/bin/activate   # For Linux/MacOS
+
     # On Windows:
     # pangenomic_env\Scripts\activate
 - Install Dependencies
+```bash
     pip install --upgrade pip
     pip install -r requirements.txt
+```
 - Set Up R for BreedLLM Guided BLUP Analysis (Script 2)
   In your R console:
+```bash
     install.packages("lme4")
+```
 NOTE: Ensure you have R accessible in your system’s PATH so that Python can call it.
 - Configure OpenAI API Key
   If you intend to use OpenAI for LangChain:
+  ```bash
     export OPENAI_API_KEY="your-api-key-here"
+  ```
 
 ### Usage
 Script 1: PanGenomic-LM
@@ -136,8 +148,10 @@ Script 2: LangChain & R-based BLUP Analysis
 - Ensure Toy Data & R Script Setup:
    - breed_llm_guided_blup_analysis.py generates data.csv (toy dataset) if none is found.
    - It checks for blup_analysis.R and creates it if missing.
-   - On Unix-like systems, the script attempts to run "blup_analysis.R" to make the R script executable:   
+   - On Unix-like systems, the script attempts to run "blup_analysis.R" to make the R script executable:  
+   ```bash 
        chmod +x blup_analysis.R
+   ```
    - Configure LangChain Credentials:
       - Set your OPENAI_API_KEY environment variable, or configure a local LLM in the script
 
