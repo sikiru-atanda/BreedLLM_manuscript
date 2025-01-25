@@ -9,14 +9,14 @@ This repository contains Python code implementing proof-of-concepts from the Bre
 
 ## Table of Contents
 
-1. [Overview]
-2. [Requirements]
-3. [Installation]
-4. [Usage]
-    - [Script 1: PanGenomic-LM]
-    - [Script 2: LangChain & R-based BLUP Analysis]
-5. [License]
-6. [Acknowledgments]
+1. Overview
+2. Requirements
+3. Installation
+4. Usage
+    - Script 1: PanGenomic-LM
+    - Script 2: LangChain & R-based BLUP Analysis
+5. License
+6. Acknowledgments
 
 ---
 
