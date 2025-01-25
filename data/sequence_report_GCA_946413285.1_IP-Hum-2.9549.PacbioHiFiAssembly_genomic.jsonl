@@ -1,5 +1,3 @@
-{"assemblyAccession":"GCA_946413285.1","assemblyUnit":"Primary Assembly","assignedMoleculeLocationType":"Chromosome","chrName":"1","gcCount":"11923227","gcPercent":36.0,"genbankAccession":"OX291750.1","length":33155062,"role":"assembled-molecule","sequenceName":"Chr1"}
-{"assemblyAccession":"GCA_946413285.1","assemblyUnit":"Primary Assembly","assignedMoleculeLocationType":"Chromosome","chrName":"2","gcCount":"8351540","gcPercent":36.5,"genbankAccession":"OX291751.1","length":23010218,"role":"assembled-molecule","sequenceName":"Chr2"}
-{"assemblyAccession":"GCA_946413285.1","assemblyUnit":"Primary Assembly","assignedMoleculeLocationType":"Chromosome","chrName":"3","gcCount":"10157973","gcPercent":36.5,"genbankAccession":"OX291752.1","length":27685524,"role":"assembled-molecule","sequenceName":"Chr3"}
-{"assemblyAccession":"GCA_946413285.1","assemblyUnit":"Primary Assembly","assignedMoleculeLocationType":"Chromosome","chrName":"4","gcCount":"9645272","gcPercent":37.5,"genbankAccession":"OX291753.1","length":25658020,"role":"assembled-molecule","sequenceName":"Chr4"}
-{"assemblyAccession":"GCA_946413285.1","assemblyUnit":"Primary Assembly","assignedMoleculeLocationType":"Chromosome","chrName":"5","gcCount":"11051374","gcPercent":36.0,"genbankAccession":"OX291754.1","length":30500392,"role":"assembled-molecule","sequenceName":"Chr5"}
+version https://git-lfs.github.com/spec/v1
+oid sha256:13bcb4faeaebb1455b8421b0965d23f1518c4f831ac06984680296f05410b555
+size 1348
