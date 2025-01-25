@@ -31,7 +31,7 @@ from sklearn.preprocessing import MinMaxScaler
 # ----------------------------
 
 # Define k-mer size
-KMER_SIZE = 5      # Example k-mer size; adjust as needed
+KMER_SIZE = 5      # Example k-mer size; 5 was used in here, adjust as needed
 
 # Define how to chunk each reference sequence
 CHUNK_SIZE = 5000  # e.g., 5 kb
